@@ -1,0 +1,119 @@
+2021-10-19 14:54:23,479 base.py[line:18] INFO 打开网址http://101.251.192.227:5001/
+2021-10-19 14:56:37,158 base.py[line:18] INFO 打开网址http://101.251.192.227:5001/
+2021-10-19 16:55:52,369 base.py[line:17] INFO 打开网址http://101.251.192.227:5001/
+2021-10-19 16:55:52,369 base.py[line:23] INFO 查找元素:LoginName
+2021-10-19 16:57:21,554 base.py[line:17] INFO 打开网址http://101.251.192.227:5001/
+2021-10-19 16:57:21,554 base.py[line:23] INFO 查找元素://*[@id="LoginName"]
+2021-10-19 16:57:46,534 base.py[line:17] INFO 打开网址http://101.251.192.227:5001/
+2021-10-19 16:57:46,535 base.py[line:23] INFO 查找元素:LoginName
+2021-10-19 16:58:58,711 base.py[line:17] INFO 打开网址http://101.251.192.227:5001/
+2021-10-19 16:58:58,711 base.py[line:23] INFO 查找元素:LoginNme
+2021-10-19 16:59:30,568 base.py[line:17] INFO 打开网址http://101.251.192.227:5001/
+2021-10-19 16:59:30,569 base.py[line:23] INFO 查找元素:LoginNme
+2021-10-19 17:01:05,318 base.py[line:17] INFO 打开网址http://101.251.192.227:5001/
+2021-10-19 17:01:05,318 base.py[line:23] INFO 查找元素:LoginNme
+2021-10-19 17:05:20,190 base.py[line:18] INFO 打开网址http://101.251.192.227:5001/
+2021-10-19 17:05:20,190 base.py[line:22] INFO 查找元素:LoginName
+2021-10-19 17:05:58,063 base.py[line:18] INFO 打开网址http://101.251.192.227:5001/
+2021-10-19 17:05:58,064 base.py[line:22] INFO 查找元素:LoginName
+2021-10-19 17:05:58,638 base.py[line:70] INFO 成功获取截图，路径：20211019170558.png
+2021-10-19 17:18:42,212 base.py[line:71] INFO 成功获取截图，路径：E:\python\shweb_auto\common\20211019171841.png
+2021-10-19 17:20:16,313 base.py[line:71] INFO 成功获取截图，路径：E:\python\shweb_auto\common\查找元素20211019172016.png
+2021-10-19 17:21:55,452 base.py[line:18] INFO 打开网址http://101.251.192.227:5001/
+2021-10-19 17:21:55,452 base.py[line:22] INFO 查找元素:LoginName
+2021-10-19 17:21:56,007 base.py[line:71] INFO 成功获取截图，路径：E:\python\shweb_auto\common\查找元素_20211019172155.png
+2021-10-19 17:23:48,251 base.py[line:18] INFO 打开网址http://101.251.192.227:5001/
+2021-10-19 17:23:48,251 base.py[line:22] INFO 查找元素:LognName
+2021-10-19 17:23:48,267 base.py[line:26] ERROR 查找元素LognName失败
+Traceback (most recent call last):
+  File "E:\python\shweb_auto\common\base.py", line 24, in get_element
+    return self.driver.find_element(by=by, value=value)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"LognName"}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Windows NT 10.0.19043 x86_64)
+
+2021-10-19 17:23:48,736 base.py[line:70] INFO 成功获取截图，路径：E:\python\shweb_auto\common\查找元素LognName_20211019172348.png
+2021-10-19 17:27:29,821 base.py[line:18] INFO 打开网址http://101.251.192.227:5001/
+2021-10-19 17:27:29,821 base.py[line:22] INFO 查找元素:LognName
+2021-10-19 17:27:29,829 base.py[line:26] ERROR 查找元素LognName失败
+Traceback (most recent call last):
+  File "E:\python\shweb_auto\common\base.py", line 24, in get_element
+    return self.driver.find_element(by=by, value=value)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"LognName"}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Windows NT 10.0.19043 x86_64)
+
+2021-10-19 17:27:30,273 base.py[line:68] INFO 成功获取截图，路径：E:\python\shweb_auto\photo\查找元素LognName_20211019172729.png
+2021-10-19 17:34:21,193 base.py[line:18] INFO 打开网址http://101.251.192.227:5001/
+2021-10-19 17:34:21,193 base.py[line:22] INFO 查找元素:LoginName
+2021-10-19 17:34:47,287 base.py[line:18] INFO 打开网址http://101.251.192.227:5001/
+2021-10-19 17:34:47,287 base.py[line:22] INFO 查找元素:LoginName
+2021-10-19 17:34:47,882 base.py[line:62] INFO 成功获取截图，路径：E:\python\shweb_auto\photo\q_2021-10-19 17：34：47.png
+2021-10-19 17:49:18,893 base.py[line:19] INFO 打开网址http://101.251.192.227:5001/
+2021-10-19 17:49:18,893 base.py[line:23] INFO 查找元素:LoginName
+2021-10-19 17:49:18,956 base.py[line:23] INFO 查找元素:Password
+2021-10-19 17:49:19,001 base.py[line:23] INFO 查找元素://*[@id="sidebarnav"]/li[14]
+2021-10-19 17:49:27,475 base.py[line:73] INFO 移动失败
+2021-10-19 17:50:10,104 base.py[line:19] INFO 打开网址http://101.251.192.227:5001/
+2021-10-19 17:50:10,104 base.py[line:23] INFO 查找元素:LoginName
+2021-10-19 17:50:10,168 base.py[line:23] INFO 查找元素:Password
+2021-10-19 17:50:10,217 base.py[line:23] INFO 查找元素:btnLogin
+2021-10-19 17:50:10,265 base.py[line:23] INFO 查找元素://*[@id="sidebarnav"]/li[14]
+2021-10-19 17:50:12,155 base.py[line:71] INFO 移动到元素//*[@id="sidebarnav"]/li[14]对象的”顶端“，与当前窗口的”顶部“对齐
+2021-10-19 17:50:42,089 base.py[line:19] INFO 打开网址http://101.251.192.227:5001/
+2021-10-19 17:50:42,089 base.py[line:23] INFO 查找元素:LoginName
+2021-10-19 17:50:42,165 base.py[line:23] INFO 查找元素:Password
+2021-10-19 17:50:42,210 base.py[line:23] INFO 查找元素:btnLogin
+2021-10-19 17:50:42,252 base.py[line:23] INFO 查找元素://*[@id="sidebarnav"]/li[14]
+2021-10-19 17:50:44,018 base.py[line:71] INFO 移动到元素//*[@id="sidebarnav"]/li[14]对象的”顶端“，与当前窗口的”顶部“对齐
+2021-10-19 17:51:07,894 base.py[line:19] INFO 打开网址http://101.251.192.227:5001/
+2021-10-19 17:51:07,895 base.py[line:23] INFO 查找元素:LoginName
+2021-10-19 17:51:07,957 base.py[line:23] INFO 查找元素:Password
+2021-10-19 17:51:08,002 base.py[line:23] INFO 查找元素:btnLogin
+2021-10-19 17:51:13,065 base.py[line:23] INFO 查找元素://*[@id="sidebarnav"]/li[14]
+2021-10-19 17:51:13,077 base.py[line:71] INFO 移动到元素//*[@id="sidebarnav"]/li[14]对象的”顶端“，与当前窗口的”顶部“对齐
+2021-10-19 18:13:33,118 base.py[line:19] INFO 打开网址http://101.251.192.227:5001/
+2021-10-19 18:13:33,119 base.py[line:47] INFO 输入元素LoginName文字:test
+2021-10-19 18:13:33,184 base.py[line:47] INFO 输入元素Password文字:acctrue1
+2021-10-19 18:15:38,095 base.py[line:19] INFO 打开网址http://101.251.192.227:5001/
+2021-10-19 18:15:38,095 base.py[line:47] INFO 输入元素LoginName文字:test
+2021-10-19 18:15:38,162 base.py[line:47] INFO 输入元素Password文字:acctrue1
+2021-10-19 18:17:39,012 base.py[line:19] INFO 打开网址http://101.251.192.227:5001/
+2021-10-19 18:17:39,012 base.py[line:47] INFO 输入元素LoginName文字:test
+2021-10-19 18:17:39,076 base.py[line:47] INFO 输入元素Password文字:acctrue1
+2021-10-19 18:17:39,130 base.py[line:32] INFO 点击元素:btnLogin
+2021-10-19 18:18:47,776 base.py[line:19] INFO 打开网址http://101.251.192.227:5001/
+2021-10-19 18:18:47,776 base.py[line:47] INFO 输入元素LoginName文字:test
+2021-10-19 18:18:47,860 base.py[line:47] INFO 输入元素Password文字:acctrue1
+2021-10-19 18:18:47,904 base.py[line:32] INFO 点击元素:btnLogin
+2021-10-19 19:02:27,389 drive.py[line:7] INFO 1
+2021-10-19 19:02:32,529 base.py[line:20] INFO 打开网址http://101.251.192.227:5001/
+2021-10-19 19:02:32,529 base.py[line:48] INFO 输入元素LoginName文字:test
+2021-10-19 19:02:32,592 base.py[line:48] INFO 输入元素Password文字:acctrue1
+2021-10-19 19:02:32,638 base.py[line:33] INFO 点击元素:btnLogin
+2021-10-19 19:15:35,386 drive.py[line:9] INFO 1
+2021-10-19 19:15:40,360 base.py[line:20] INFO 打开网址http://101.251.192.227:5001/
+2021-10-19 19:15:40,360 base.py[line:48] INFO 输入元素LoginName文字:test
+2021-10-19 19:15:40,425 base.py[line:48] INFO 输入元素Password文字:acctrue1
+2021-10-19 19:15:40,471 base.py[line:33] INFO 点击元素:btnLogin
+2021-10-19 19:30:32,678 base.py[line:24] INFO 打开网址http://101.251.192.227:5001/
+2021-10-19 19:30:32,678 base.py[line:52] INFO 输入元素LoginName文字:test
+2021-10-19 19:30:32,729 base.py[line:52] INFO 输入元素Password文字:acctrue1
+2021-10-19 19:30:32,771 base.py[line:37] INFO 点击元素:btnLogin
+2021-10-19 21:09:57,527 base.py[line:20] INFO 打开网址http://101.251.192.227:5001/
+2021-10-19 21:09:57,527 base.py[line:48] INFO 输入元素LoginName文字:test
+2021-10-19 21:09:57,592 base.py[line:48] INFO 输入元素Password文字:acctrue1
+2021-10-19 21:09:57,636 base.py[line:33] INFO 点击元素:btnLogin
+2021-10-19 21:10:07,753 base.py[line:80] INFO 移动到元素//*[@id="sidebarnav"]/li[14]对象的”顶端“，与当前窗口的”顶部“对齐
