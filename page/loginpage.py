@@ -22,4 +22,4 @@ class Login(Base):
         time.sleep(5)
 
     def q(self):
-        self.base.execute_script('xpath', '//*[@id="sidebarnav"]/li[14]s')
+        self.base.execute_script('xpath', '//*[@id="sidebarnav"]/li[14]')
