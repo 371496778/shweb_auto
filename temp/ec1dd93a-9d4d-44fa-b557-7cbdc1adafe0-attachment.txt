@@ -1,0 +1,7 @@
+INFO     root:conftest.py:72 自动化测试开始--------------------
+INFO     root:conftest.py:74 初始化成功
+INFO     root:base.py:21 打开网址http://101.251.192.227:5001/
+INFO     root:base.py:49 输入元素LoginName文字:test
+INFO     root:base.py:49 输入元素Password文字:acctrue1
+INFO     root:base.py:34 点击元素:btnLogin
+INFO     root:conftest.py:78 自动化测试结束--------------------
